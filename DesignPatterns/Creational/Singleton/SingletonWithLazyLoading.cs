@@ -1,6 +1,6 @@
 ﻿using System.Xml.Linq;
 
-namespace DesignPatterns.Singleton
+namespace DesignPatterns.Creational.Singleton
 {
     public class SingletonWithLazyLoading
     {

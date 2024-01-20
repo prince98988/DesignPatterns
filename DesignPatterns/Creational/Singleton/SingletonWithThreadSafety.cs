@@ -1,6 +1,6 @@
 ﻿using System.Xml.Linq;
 
-namespace DesignPatterns.Singleton
+namespace DesignPatterns.Creational.Singleton
 {
     public class SingletonWithThreadSafety
     {
@@ -10,9 +10,9 @@ namespace DesignPatterns.Singleton
         private SingletonWithThreadSafety() { }
         public static SingletonWithThreadSafety GetInstance()
         {
-            if( _instance == null )
+            if (_instance == null)
             {
-                lock( _lock )
+                lock (_lock)
                 {
                     _instance = new SingletonWithThreadSafety();
                 }

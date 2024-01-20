@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Singleton
+﻿namespace DesignPatterns.Creational.Singleton
 {
     public sealed class Singleton
     {
@@ -7,7 +7,7 @@
         private Singleton() { }
         public static Singleton GetCarInstance()
         {
-            if(_instance == null)
+            if (_instance == null)
             {
                 _instance = new Singleton();
             }
