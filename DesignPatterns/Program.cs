@@ -5,6 +5,6 @@
 
 Main.Run();*/
 
-using DesignPatterns.Creational.Factory;
+using DesignPatterns.Behavioral.ChainResponsibility;
 
 Main.Run();
