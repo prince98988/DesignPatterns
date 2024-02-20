@@ -5,6 +5,6 @@
 
 Main.Run();*/
 
-using DesignPatterns.Behavioral.ChainResponsibility;
+using DesignPatterns.Structural.Decorator;
 
 Main.Run();
