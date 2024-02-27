@@ -5,6 +5,6 @@
 
 Main.Run();*/
 
-using DesignPatterns.Structural.Decorator;
+using DesignPatterns.Structural.Bridge;
 
 Main.Run();
