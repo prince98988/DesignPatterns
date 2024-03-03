@@ -5,6 +5,6 @@
 
 Main.Run();*/
 
-using DesignPatterns.Structural.Composite;
+using DesignPatterns.Structural.Flyweight;
 
 Main.Run();
